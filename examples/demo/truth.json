@@ -1,0 +1,7 @@
+{
+  "event_risk_ratio": 0.6,
+  "crp_severity_shift_eligible": -0.3665618400934664,
+  "total_risk_ratio_all": 0.7913040258211665,
+  "total_risk_difference_all": -0.05397506801945137,
+  "note": "Truth from both potential worlds. MoCoP's estimate is expected to be close in direction and size, not identical, because it models labs from baseline values."
+}

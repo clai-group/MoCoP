@@ -1,0 +1,50 @@
+code,direction,name
+33762-6,high_bad,NT-proBNP
+42637-9,high_bad,BNP
+10839-9,high_bad,Troponin I
+6598-7,high_bad,Troponin T
+67151-1,high_bad,Troponin T (high sensitivity)
+2089-1,high_bad,LDL cholesterol
+13457-7,high_bad,LDL cholesterol (calculated)
+2093-3,high_bad,Total cholesterol
+2571-8,high_bad,Triglycerides
+4548-4,high_bad,Hemoglobin A1c
+17856-6,high_bad,Hemoglobin A1c
+2345-7,high_bad,Glucose
+2160-0,high_bad,Creatinine
+3094-0,high_bad,Urea nitrogen (BUN)
+2500-7,high_bad,
+10334-1,high_bad,
+1988-5,high_bad,C-reactive protein
+30522-7,high_bad,C-reactive protein (high sensitivity)
+4537-7,high_bad,Erythrocyte sedimentation rate
+1742-6,high_bad,ALT
+1920-8,high_bad,AST
+1975-2,high_bad,Total bilirubin
+14804-9,high_bad,Lactate dehydrogenase
+2532-0,high_bad,Lactate dehydrogenase
+48058-2,high_bad,D-dimer
+48065-7,high_bad,D-dimer (FEU)
+48066-5,high_bad,D-dimer (DDU)
+2276-4,high_bad,Ferritin
+26881-3,high_bad,Interleukin 6
+33959-8,high_bad,Procalcitonin
+3255-7,high_bad,Fibrinogen
+2085-9,high_good,HDL cholesterol
+33914-3,high_good,eGFR
+69405-9,high_good,eGFR
+8834-4,high_good,
+20150-9,high_good,FEV1
+1751-7,high_good,Albumin
+718-7,high_good,Hemoglobin
+4544-3,high_good,Hematocrit
+26474-7,high_good,Lymphocytes (absolute)
+26478-8,high_good,Lymphocytes (percent)
+2823-3,mid_best,Potassium
+2951-2,mid_best,Sodium
+17861-6,mid_best,Calcium
+2028-9,mid_best,Carbon dioxide
+2075-0,mid_best,Chloride
+6690-2,mid_best,White blood cell count
+26499-4,mid_best,Neutrophils (absolute)
+777-3,mid_best,Platelets

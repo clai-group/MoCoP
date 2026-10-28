@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mocop"
+version = "1.0.0"
+description = "Monotone Counterfactual Propagation: counterfactual treatment effects from EHR data through lab and event mediators"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Jingya Cheng"}]
+dependencies = [
+    "numpy>=1.22",
+    "pandas>=1.4",
+    "scipy>=1.8",
+    "scikit-learn>=1.1",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+knowledge = ["networkx>=2.6", "matplotlib>=3.5"]
+test = ["pytest>=7"]
+
+[project.scripts]
+mocop = "mocop.cli:main"
+
+[tool.setuptools]
+packages = ["mocop"]
+
+[tool.setuptools.package-data]
+mocop = ["data/*.csv"]

@@ -1,0 +1,20 @@
+# MoCoP example config (synthetic data). Paths are relative to this file.
+data:
+  cohort: cohort.csv
+  labs: labs.csv
+  dx: dx.csv
+  output_dir: output
+columns:
+  id: pid
+  index_date: index_date
+  outcome: outcome
+  exposure: exposure
+  eligible: eligible
+  event_mediator: event
+covariates: [age, sex, comorbidity_score, region, prior_event]
+edges:
+  modes: [curated, trained]
+  file: edges_curated.csv
+uncertainty:
+  n_boot: 200
+  n_psa: 100
