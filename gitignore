@@ -1,0 +1,14 @@
+# Python build and cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+
+# MoCoP outputs (never commit results from real data)
+output/
+mocop_output/
+
+# macOS Finder files
+.DS_Store
