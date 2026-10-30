@@ -6,6 +6,7 @@ type: software
 authors:
   - family-names: Cheng
     given-names: Jingya
+    affiliation: "Clinical Augmented Intelligence Group (CLAI), Massachusetts General Hospital, Harvard Medical School"
 version: 1.0.0
 date-released: "2026-10-30"
 license: MIT
