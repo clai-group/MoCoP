@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "MoCoP: Monotone Counterfactual Propagation"
+abstract: "Counterfactual treatment-effect estimation from electronic health records by propagating a binary exposure through laboratory and event mediators into a monotone-constrained outcome model."
+type: software
+authors:
+  - family-names: Cheng
+    given-names: Jingya
+version: 1.0.0
+date-released: "2026-10-30"
+license: MIT
+repository-code: "https://github.com/clai-group/MoCoP"
+keywords:
+  - causal inference
+  - counterfactual
+  - electronic health records
+  - treatment effect
+  - monotone constraints

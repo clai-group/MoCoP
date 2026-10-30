@@ -12,12 +12,16 @@ from published estimates, estimated from the cohort with a doubly robust estimat
 ## Installation
 
 ```bash
-pip install mocop
+pip install "git+https://github.com/clai-group/MoCoP.git"
 ```
 
 Python 3.9 or later. Dependencies: numpy, pandas, scipy, scikit-learn, pyyaml.
+The demo, templates and tests are in this repository
+(`git clone https://github.com/clai-group/MoCoP.git`).
 
 ## Quick start
+
+From the root of the repository:
 
 ```bash
 cd examples/demo
@@ -60,6 +64,11 @@ output reference, methods, data partitioning, data protection, limitations and t
 MoCoP runs locally, makes no network connections and writes aggregate outputs only by
 default, with small-count suppression. See Section 11 of the user guide.
 
+## Citation
+
+If you use MoCoP, please cite it using the metadata in [CITATION.cff](CITATION.cff)
+(GitHub: "Cite this repository").
+
 ## License
 
-To be added.
+MIT. See [LICENSE](LICENSE).

@@ -66,9 +66,9 @@ Requirements: Python 3.9 or later; numpy, pandas, scipy, scikit-learn and pyyaml
 automatically). The optional knowledge-graph module additionally requires matplotlib.
 
 ```bash
-pip install mocop                    # from PyPI
-pip install mocop-1.0.0-py3-none-any.whl   # from a wheel file
-pip install "mocop[knowledge]"       # with the optional knowledge-graph module
+pip install "git+https://github.com/clai-group/MoCoP.git"                        # latest version
+pip install "git+https://github.com/clai-group/MoCoP.git@v1.0.0"                 # a specific release
+pip install "mocop[knowledge] @ git+https://github.com/clai-group/MoCoP.git"     # with the optional knowledge-graph module
 ```
 
 Installation into a dedicated virtual environment is recommended:
@@ -76,9 +76,14 @@ Installation into a dedicated virtual environment is recommended:
 ```bash
 python3 -m venv ~/mocop_env
 source ~/mocop_env/bin/activate      # Windows: mocop_env\Scripts\activate
-pip install mocop
+pip install "git+https://github.com/clai-group/MoCoP.git"
 mocop --version
 ```
+
+Installation with pip provides the package and the `mocop` command. The demo, templates and
+tests are in the repository; obtain them with
+`git clone https://github.com/clai-group/MoCoP.git` or by downloading the repository as a ZIP
+file from GitHub.
 
 ---
 
@@ -714,6 +719,8 @@ lowers post-exposure C-reactive protein (LOINC 1988-5) and multiplies the risk o
 event by 0.60; the outcome depends on C-reactive protein, creatinine, the event and
 comorbidity.
 
+From the root of the repository (Section 2):
+
 ```bash
 cd examples/demo
 python run_demo.py            # or: mocop run config.yaml
@@ -739,4 +746,6 @@ MoCoP follows semantic versioning. Results are determined by the package version
 configuration and the input data. `run_info.json` records the version and the resolved
 configuration; `edges_locked.csv` records the causal graph used. These two files constitute
 the record of an analysis and can be archived before comparison with other estimators. A
-specific version is installed with `pip install mocop==1.0.0`.
+specific version is installed with
+`pip install "git+https://github.com/clai-group/MoCoP.git@v1.0.0"`. Each release is archived on
+Zenodo with a DOI.

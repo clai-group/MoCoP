@@ -85,7 +85,7 @@ DEFAULTS = {
         "restrict_candidates": False,    # True: test only labs with knowledge-graph support
     },
     "output": {
-        "suppress_small_counts": 11,     # counts below this are written as blank
+        "suppress_small_counts": 11,     # counts from 1 to this value minus 1 are written as "<11"
         "save_patient_level": False,
         "chunk_rows": 5_000_000,
     },
